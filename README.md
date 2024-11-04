@@ -42,7 +42,8 @@ Install Node.js dependencies:
 bash
 Copy code
 npm install
-3.  **Environment Setup**:
+
+3. **Environment Setup**:
 
 Copy the .env.example file to create your .env file:
 bash
@@ -51,7 +52,8 @@ cp .env.example .env
 4. **Generate the application key**:
 bash
 Copy code
-php artisan key:generate
+php artisan key:generate 
+<br>
 5. **Configure your .env file with database information**:
 
 Copy code
@@ -84,3 +86,7 @@ php artisan serve
 
 http://127.0.0.1:8000
 
+
+10. **Explore the Application: You can now explore the application, create users, and perform other
+actions as needed.**:
+api documentation: [documentaion link](https://documenter.getpostman.com/view/31495144/2sAY4ye1Wx)
